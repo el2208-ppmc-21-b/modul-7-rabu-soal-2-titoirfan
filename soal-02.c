@@ -17,9 +17,9 @@ struct StackNode* newNode(char * new_url)
 { 
 	struct StackNode* stackNode = (struct StackNode*)malloc(sizeof(struct StackNode)); 
 	//memory allocation for new url
-    stackNode->url = (char*)malloc(strlen(new_url));
-    //copy to url
-    strcpy(stackNode->url, new_url);
+    	stackNode->url = (char*)malloc(strlen(new_url));
+    	//copy to url
+    	strcpy(stackNode->url, new_url);
 	stackNode->next = NULL; 
 	return stackNode; 
 } 
@@ -44,10 +44,10 @@ char * pop(struct StackNode** root)
 	struct StackNode* temp = *root; 
 	*root = (*root)->next;
 
-    //memory allocation for popped url
+    	//memory allocation for popped url
 	char* popped = (char*)malloc(strlen(temp->url));
-    //copy url
-    strcpy(popped, temp->url); 
+    	//copy url
+    	strcpy(popped, temp->url); 
 	free(temp); 
 
 	return popped; 
@@ -130,6 +130,7 @@ int main()
         printf("\nInstruction : ");
         fflush(stdin);
         scanf("%c", &instruction);
+	printf("instruction given: %c\n", instruction);
         switch (instruction)
         {
         case 'I':
