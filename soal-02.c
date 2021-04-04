@@ -136,7 +136,6 @@ int main()
             //insert url
             printf("Insert URL : ");
             scanf(" %s", url);
-            getchar();
 
             //push it to the backStack
             push(&backStack, url);
@@ -149,12 +148,13 @@ int main()
             break;
         case 'R' : //redo
             redo(&backStack, &forwardStack);
-			break;
+            break;
         default:
             break;
         }
         
         getchar();
+
         //print current location
         if ( instruction != 'E'){
             printCurrentSite(backStack);
