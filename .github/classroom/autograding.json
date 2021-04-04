@@ -5,7 +5,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "U\r\nR\r\nI\r\nwww.ldte.stei.itb.ac.id\r\nE",
-      "output": "Instruction : U\r\nCan't Go Back!\r\nNothing to found ..\r\n\r\nInstruction : R\r\nCan't Go Forward!\r\nNothing to found ..\r\n\r\nInstruction : I\r\nInsert URL : www.ldte.stei.itb.ac.id\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id",
+      "output": "Instruction : Can't Go Back!\r\nNothing to found ..\r\n\r\nInstruction : Can't Go Forward!\r\nNothing to found ..\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.ldte.stei.itb.ac.id",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "I\r\nwww.ldte.stei.itb.ac.id\r\nI\r\nwww.praktikum.stei.itb.ac.id\r\nU\r\nE",
-      "output": "Instruction : I\r\nInsert URL : www.ldte.stei.itb.ac.id\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : I\r\nInsert URL : www.praktikum.stei.itb.ac.id\r\n\r\nCurrent Site : www.praktikum.stei.itb.ac.id\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id",
+      "output": "Instruction : Insert URL : \r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.praktikum.stei.itb.ac.id\r\n\r\nInstruction : \r\nCurrent Site : www.ldte.stei.itb.ac.id",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "I\r\nwww.ldte.stei.itb.ac.id\r\nI\r\nwww.praktikum.stei.itb.ac.id\r\nR\r\nE",
-      "output": "Instruction : I\r\nInsert URL : www.ldte.stei.itb.ac.id\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : I\r\nInsert URL : www.praktikum.stei.itb.ac.id\r\n\r\nCurrent Site : www.praktikum.stei.itb.ac.id\r\n\r\nInstruction : R\r\nCan't Go Forward!\r\nCurrent Site : www.praktikum.stei.itb.ac.id",
+      "output": "Instruction : Insert URL : \r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.praktikum.stei.itb.ac.id\r\n\r\nInstruction : Can't Go Forward!\r\nCurrent Site : www.praktikum.stei.itb.ac.id",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -35,7 +35,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "I\r\nwww.ldte.stei.itb.ac.id\r\nI\r\nwww.praktikum.stei.itb.ac.id\r\nU\r\nR\r\nE",
-      "output": "Instruction : I\r\nInsert URL : www.ldte.stei.itb.ac.id\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : I\r\nInsert URL : www.praktikum.stei.itb.ac.id\r\n\r\nCurrent Site : www.praktikum.stei.itb.ac.id\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : R\r\n\r\nCurrent Site : www.praktikum.stei.itb.ac.id",
+      "output": "Instruction : Insert URL : \r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.praktikum.stei.itb.ac.id\r\n\r\nInstruction : \r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : \r\nCurrent Site : www.praktikum.stei.itb.ac.id",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -45,7 +45,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "I\r\nwww.ldte.stei.itb.ac.id\r\nI\r\nwww.praktikum.stei.itb.ac.id\r\nU\r\nI\r\nwww.wikipedia.com\r\nR\r\nE",
-      "output": "Instruction : I\r\nInsert URL : www.ldte.stei.itb.ac.id\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : I\r\nInsert URL : www.praktikum.stei.itb.ac.id\r\n\r\nCurrent Site : www.praktikum.stei.itb.ac.id\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : I\r\nInsert URL : www.wikipedia.com\r\n\r\nCurrent Site : www.wikipedia.com\r\n\r\nInstruction : R\r\nCan't Go Forward!\r\nCurrent Site : www.wikipedia.com",
+      "output": "Instruction : Insert URL : \r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.praktikum.stei.itb.ac.id\r\n\r\nInstruction : \r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.wikipedia.com\r\n\r\nInstruction : Can't Go Forward!\r\nCurrent Site : www.wikipedia.com",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -55,7 +55,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "I\r\nwww.ldte.stei.itb.ac.id\r\nI\r\nwww.akademikhme.itb.ac.id\r\nR\r\nU\r\nI\r\nwww.wikipedia.com\r\nR\r\nI\r\nwww.google.com\r\nU\r\nE",
-      "output": "Instruction : I\r\nInsert URL : www.ldte.stei.itb.ac.id\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : I\r\nInsert URL : www.akademikhme.itb.ac.id\r\n\r\nCurrent Site : www.akademikhme.itb.ac.id\r\n\r\nInstruction : R\r\nCan't Go Forward!\r\nCurrent Site : www.akademikhme.itb.ac.id\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : I\r\nInsert URL : www.wikipedia.com\r\n\r\nCurrent Site : www.wikipedia.com\r\n\r\nInstruction : R\r\nCan't Go Forward!\r\nCurrent Site : www.wikipedia.com\r\n\r\nInstruction : I\r\nInsert URL : www.google.com\r\n\r\nCurrent Site : www.google.com\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.wikipedia.com",
+      "output": "Instruction : Insert URL : \r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.akademikhme.itb.ac.id\r\n\r\nInstruction : Can't Go Forward!\r\nCurrent Site : www.akademikhme.itb.ac.id\r\n\r\nInstruction : \r\nCurrent Site : www.ldte.stei.itb.ac.id\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.wikipedia.com\r\n\r\nInstruction : Can't Go Forward!\r\nCurrent Site : www.wikipedia.com\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.google.com\r\n\r\nInstruction : \r\nCurrent Site : www.wikipedia.com",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -65,7 +65,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "I\r\nwww.amazon.com\r\nI\r\nwww.bukalapak.com\r\nI\r\nwww.tokopedia.com\r\nU\r\nU\r\nE",
-      "output": "Instruction : I\r\nInsert URL : www.amazon.com\r\n\r\nCurrent Site : www.amazon.com\r\n\r\nInstruction : I\r\nInsert URL : www.bukalapak.com\r\n\r\nCurrent Site : www.bukalapak.com\r\n\r\nInstruction : I\r\nInsert URL : www.tokopedia.com\r\n\r\nCurrent Site : www.tokopedia.com\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.bukalapak.com\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.amazon.com",
+      "output": "Instruction : Insert URL : \r\nCurrent Site : www.amazon.com\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.bukalapak.com\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.tokopedia.com\r\n\r\nInstruction : \r\nCurrent Site : www.bukalapak.com\r\n\r\nInstruction : \r\nCurrent Site : www.amazon.com",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -75,7 +75,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "I\r\nwww.google.com\r\nI\r\nwww.youtube.com\r\nI\r\nwww.kaskus.com\r\nU\r\nU\r\nR\r\nR\r\nE",
-      "output": "Instruction : I\r\nInsert URL : www.google.com\r\n\r\nCurrent Site : www.google.com\r\n\r\nInstruction : I\r\nInsert URL : www.youtube.com\r\n\r\nCurrent Site : www.youtube.com\r\n\r\nInstruction : I\r\nInsert URL : www.kaskus.com\r\n\r\nCurrent Site : www.kaskus.com\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.youtube.com\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.google.com\r\n\r\nInstruction : R\r\n\r\nCurrent Site : www.youtube.com\r\n\r\nInstruction : R\r\n\r\nCurrent Site : www.kaskus.com",
+      "output": "Instruction : Insert URL : \r\nCurrent Site : www.google.com\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.youtube.com\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.kaskus.com\r\n\r\nInstruction : \r\nCurrent Site : www.youtube.com\r\n\r\nInstruction : \r\nCurrent Site : www.google.com\r\n\r\nInstruction : \r\nCurrent Site : www.youtube.com\r\n\r\nInstruction : \r\nCurrent Site : www.kaskus.com",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -85,7 +85,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "I\r\nwww.kapanlagi.com\r\nI\r\nwww.meet.google.com\r\nU\r\nI\r\nwww.mouser.com\r\nR\r\nE",
-      "output": "Instruction : I\r\nInsert URL : www.kapanlagi.com\r\n\r\nCurrent Site : www.kapanlagi.com\r\n\r\nInstruction : I\r\nInsert URL : www.meet.google.com\r\n\r\nCurrent Site : www.meet.google.com\r\n\r\nInstruction : U\r\n\r\nCurrent Site : www.kapanlagi.com\r\n\r\nInstruction : I\r\nInsert URL : www.mouser.com\r\n\r\nCurrent Site : www.mouser.com\r\n\r\nInstruction : R\r\nCan't Go Forward!\r\nCurrent Site : www.mouser.com",
+      "output": "Instruction : Insert URL : \r\nCurrent Site : www.kapanlagi.com\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.meet.google.com\r\n\r\nInstruction : \r\nCurrent Site : www.kapanlagi.com\r\n\r\nInstruction : Insert URL : \r\nCurrent Site : www.mouser.com\r\n\r\nInstruction : Can't Go Forward!\r\nCurrent Site : www.mouser.com",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -95,7 +95,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "R\r\nU\r\nE",
-      "output": "Instruction : R\r\nCan't Go Forward!\r\nNothing to found ..\r\n\r\nInstruction : U\r\nCan't Go Back!\r\nNothing to found ..",
+      "output": "Instruction : Can't Go Forward!\r\nNothing to found ..\r\n\r\nInstruction : Can't Go Back!\r\nNothing to found ..",
       "comparison": "included",
       "timeout": 1,
       "points": 10
