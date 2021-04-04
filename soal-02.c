@@ -153,11 +153,14 @@ int main()
         default:
             break;
         }
-
+	
         //print current location
         if ( instruction != 'E'){
             printCurrentSite(backStack);
         }
+	
+	getchar();
+	getchar();
         // printStack(backStack);
     } while (instruction != 'E');
     
