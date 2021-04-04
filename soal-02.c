@@ -130,7 +130,7 @@ int main()
         printf("\nInstruction : ");
         fflush(stdin);
         scanf("%c", &instruction);
-	printf("instruction given: %c\n", instruction);
+
         switch (instruction)
         {
         case 'I':
