@@ -152,8 +152,6 @@ int main()
         default:
             break;
         }
-        
-        getchar();
 
         //print current location
         if ( instruction != 'E'){
