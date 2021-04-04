@@ -130,15 +130,13 @@ int main()
         printf("\nInstruction : ");
         fflush(stdin);
         scanf("%c", &instruction);
-        char junk = getchar();
         switch (instruction)
         {
         case 'I':
             //insert url
             printf("Insert URL : ");
-            fflush(stdin);
             scanf(" %s", url);
-            junk = getchar();
+            getchar();
 
             //push it to the backStack
             push(&backStack, url);
@@ -147,16 +145,16 @@ int main()
             clearStack(&forwardStack);
             break;
         case 'U' : //Undo
-            fflush(stdin);
             undo(&backStack, &forwardStack);
             break;
         case 'R' : //redo
-            fflush(stdin);
             redo(&backStack, &forwardStack);
+			break;
         default:
             break;
         }
         
+        getchar();
         //print current location
         if ( instruction != 'E'){
             printCurrentSite(backStack);
